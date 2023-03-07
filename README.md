@@ -32,8 +32,8 @@ http://127.0.0.1:8000/delete_user/7
 Update the user details : 1 is the id of the user 
 Method - put 
 http://127.0.0.1:8000/update_user/1
-Request : - 
 
+Request : - 
 {
   "fullname" :"pramila"
 }
@@ -42,6 +42,7 @@ Request : -
 Add the new user :- 
 Method : post 
 http://127.0.0.1:8000/add_new_user
+
 Request: -
 {
   "fullname" : "Pramila B",
